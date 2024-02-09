@@ -1,6 +1,6 @@
 ﻿using BlazorWebAssemblyDemo.UI.Services;
 using Newtonsoft.Json;
-using RiotDataGragonChampionListConverter.Models;
+using RiotDataGragonChampionListConverter;
 
 Console.WriteLine("Insert SOURCE json filepath:");
 var sourceFile = Console.ReadLine();

@@ -1,8 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using RiotDataGragonChampionListConverter.Models;
 
-namespace BlazorWebAssemblyDemo.UI.Services;
+namespace RiotDataGragonChampionListConverter;
 
 public class ChampionConverter : JsonConverter<IEnumerable<ChampionResultModel>>
 {
@@ -32,8 +31,8 @@ public class ChampionConverter : JsonConverter<IEnumerable<ChampionResultModel>>
     private record ChampionSourceModel
     (
         [JsonProperty("id")]
-        string Name,    
-    
+        string Name,
+
         string Title,
 
         string Blurb,

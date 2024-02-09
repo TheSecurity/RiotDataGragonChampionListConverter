@@ -1,4 +1,4 @@
-﻿namespace RiotDataGragonChampionListConverter.Models;
+﻿namespace RiotDataGragonChampionListConverter;
 
 public record ChampionResultModel
 (
